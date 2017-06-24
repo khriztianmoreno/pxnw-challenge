@@ -16,4 +16,4 @@ deployment:
     branch: master
     commands:
       - npm run build
-      - aws s3 sync /home/ubuntu/batteries911-appweb/dist s3://batteries911dev/ --delete  --acl public-read
+      - aws s3 sync /home/ubuntu/pxnw-challenge/dist s3://challenge-pxnw-khriztianmoreno/ --delete  --acl public-read
