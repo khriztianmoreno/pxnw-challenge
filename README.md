@@ -57,7 +57,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 * **Cristian Moreno** - *FullStack JavaScript Developer* - [Github](https://github.com/khriztianmoreno)
 
-See also the list of [contributors](https://github.com/khriztianmoreno/pxnw-challengecontributors) who participated in this project.
+See also the list of [contributors](https://github.com/khriztianmoreno/pxnw-challenge/contributors) who participated in this project.
 
 ## License
 
