@@ -1,0 +1,8 @@
+<form [formGroup]="searchForm">
+  <div class="input-group input-group-lg">
+    <input formControlName="search"  class="form-control" placeholder="Search..." name="s" id="s" type="text">
+    <span class="input-group-btn">
+      <button type="submit" (click)="onSearch(searchForm.value)" class="btn btn-primary btn-lg"><i class="fa fa-search"></i></button>
+    </span>
+  </div>
+</form>

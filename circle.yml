@@ -1,0 +1,19 @@
+machine:
+  timezone: America/New_York
+  node:
+   version: 5.10.1
+
+dependencies:
+  override:
+    - npm install
+
+test:
+  override:
+    - npm run test
+
+deployment:
+  development:
+    branch: master
+    commands:
+      - npm run build
+      - aws s3 sync /home/ubuntu/batteries911-appweb/dist s3://batteries911dev/ --delete  --acl public-read

@@ -1,0 +1,110 @@
+/* Single Post */
+
+$primary-color: #0088cc;
+article.post-large .post-date {
+  margin-left: -60px;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  margin-bottom: 7px;
+  >span {
+    display: inline-block;
+    padding-right: 8px;
+  }
+  i {
+    margin-right: 3px;
+  }
+}
+
+.post-date {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+  .month {
+    background-color: $primary-color;
+    border-radius: 0 0 2px 2px;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.07) inset;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: 0 10px 2px;
+  }
+  .day {
+    background: #F4F4F4;
+    border-radius: 2px 2px 0 0;
+    color: $primary-color;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+    padding: 10px;
+  }
+}
+
+.single-post article {
+  border-bottom: 0;
+  margin-bottom: 0;
+}
+
+article.blog-single-post .post-meta {
+  margin-bottom: 20px;
+}
+
+
+/* Post Block */
+
+.post-block {
+  border-top: 1px solid #DDD;
+  margin: 15px 0 0 0;
+  padding: 20px 0 15px 0;
+  h3 {
+    font-size: 1.8em;
+    font-weight: 200;
+    margin: 0 0 20px;
+    text-transform: none;
+    i {
+      margin-right: 7px;
+    }
+  }
+}
+
+
+/* Post Author */
+
+.post-author {
+  margin: 15px 0 0 0;
+  img {
+    max-height: 80px;
+    max-width: 80px;
+  }
+  p {
+    font-size: 0.9em;
+    line-height: 22px;
+    margin: 0;
+    padding: 0;
+    .name {
+      font-size: 1.1em;
+    }
+  }
+  .img-thumbnail {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+  }
+}
+
+
+/* Post Share */
+
+.post-share {
+  margin: 55px 0 0 0;
+  padding-bottom: 0;
+}
+
+
+/* Post Comments */
+
+.post-comments {
+  margin-top: 45px;
+}

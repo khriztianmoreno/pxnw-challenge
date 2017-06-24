@@ -1,0 +1,2 @@
+<p [innerHTML]="raw | truncate : 200" *ngIf="truncate"></p>
+<p [innerHTML]="raw" *ngIf="!truncate"></p>

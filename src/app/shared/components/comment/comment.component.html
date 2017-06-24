@@ -1,0 +1,19 @@
+<ul class="comments" *ngFor="let comment of comments">
+  <li>
+    <div class="comment">
+      <div class="img-thumbnail">
+        <img class="avatar" alt="Avatar" src="{{ comment.user.avatar_url }}">
+      </div>
+      <div class="comment-block">
+        <div class="comment-arrow"></div>
+        <span class="comment-by">
+          <strong>
+            <a href="{{ comment.user.html_url }}" target="_blank">{{ comment.user.login }}</a>
+          </strong>
+        </span>
+        <p>{{ comment.body }}</p>
+        <span class="date pull-right">{{ comment.created_at | date:'medium' }}</span>
+      </div>
+    </div>
+  </li>
+</ul>
