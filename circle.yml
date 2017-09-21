@@ -12,11 +12,12 @@ test:
     - npm run test
 
 deployment:
-  staging:
+  development:
     branch: staging
     commands:
       - npm run build
       - aws s3 sync /home/ubuntu/pxnw-challenge/dist s3://staging-challenge/ --delete  --acl public-read
+  staging:
     branch: master
     commands:
       - npm run build
