@@ -9,7 +9,8 @@
     "pretest": "ng lint",
     "test": "ng test --watch=false",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "private": true,
   "dependencies": {
@@ -45,8 +46,12 @@
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.1.2",
+    "push-dir": "^0.4.1",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4",
+    "node-sass": "^4.1.1",
+    "url-loader": "^0.5.7",
+    "bootstrap-sass": "^3.3.7"
   }
 }
